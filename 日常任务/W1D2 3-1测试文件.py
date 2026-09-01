@@ -48,6 +48,7 @@ class TestListDepth(unittest.TestCase):
         result = list_depth("hello")
         self.assertEqual(result, 0)
 
+
     def test_complex_nesting(self):
         """测试复杂嵌套结构，深度应为4"""
         result = list_depth([1, [2, [3, [4]]], 5])
