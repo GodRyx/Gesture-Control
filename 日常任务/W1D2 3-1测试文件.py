@@ -19,7 +19,6 @@ def list_depth(lst):
 
     return max_depth
 
-
 import unittest
 class TestListDepth(unittest.TestCase):
 
